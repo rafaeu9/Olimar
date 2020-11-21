@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AaronDemo/DemoLVL1.unity
+- path: Assets/AaronDemo/_MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
