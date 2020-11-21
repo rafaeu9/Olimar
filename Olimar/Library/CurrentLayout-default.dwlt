@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1522
     height: 757
-  m_MinSize: {x: 677, y: 492}
+  m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 96
+  controlID: 68
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,10 +137,10 @@ MonoBehaviour:
     y: 0
     width: 1214
     height: 757
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 130
+  controlID: 69
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +162,10 @@ MonoBehaviour:
     y: 0
     width: 1214
     height: 458
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 18
+  controlID: 44
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   - {fileID: 22}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,25 +363,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 203c0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b6eeffff0af1ffff40f1ffff46f7ffff64f7ffff84f7ffff28f9ffff58fbffff
+      m_ExpandedIDs: b6cdffffb6d1ffffd2d1ffffecd1ffff4ad3ffff8ed5ffffa4d9ffffaed9ffffbad9fffff0e9ffff12eaffff4eeaffff12f1ffffa4f4ffffa6f5ffffd0f5ffffd8f6ffffe6f7ffffc0f8ffffdef9ffff58fbffff00000000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Drag Prompt
+        m_OriginalName: Drag Prompt
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -15736
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -425,9 +425,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.229859, y: -1.0176069, z: -8.445618}
+    m_Target: {x: -1.5032278, y: -0.3437633, z: -38.35254}
     speed: 2
-    m_Value: {x: 1.229859, y: -1.0176069, z: -8.445618}
+    m_Value: {x: -1.5032278, y: -0.3437633, z: -38.35254}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -457,10 +457,10 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
         m_Target: 1
@@ -477,9 +477,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.8092947
+    m_Target: 6.0839725
     speed: 2
-    m_Value: 4.8092947
+    m_Value: 6.0839725
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -661,34 +661,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/AaronDemo
+    - Assets/Sprites
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/AaronDemo
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\aaron\Documents\Unity Projects\Olimar\Olimar
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 003c0000
-    m_LastClickedID: 15360
-    m_ExpandedIDs: 00000000503b0000063c000000ca9a3b
+    m_SelectedIDs: 483b0000
+    m_LastClickedID: 15176
+    m_ExpandedIDs: 000000002e3b00003c3b0000423b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Plugins
+      m_OriginalName: Plugins
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 15168
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -702,7 +702,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000503b0000
+    m_ExpandedIDs: 000000002e3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -893,15 +893,15 @@ MonoBehaviour:
   targetAsset: {fileID: 11500000, guid: ed953fabf368e7c48b40ffc2b12613ea, type: 3}
   targetAssetGuid: ed953fabf368e7c48b40ffc2b12613ea
   textEditor:
-    scrollPosition: {x: 0, y: 261}
-    scrollPositionLine: 18
-    scrollPositionOffset: 1.8000183
+    scrollPosition: {x: 0, y: 218}
+    scrollPositionLine: 15
+    scrollPositionOffset: 2
     searchString: 
     caretPosition:
-      virtualColumn: 37
-      column: 37
-      characterIndex: 31
-      line: 23
+      virtualColumn: 55
+      column: 55
+      characterIndex: 49
+      line: 19
     _selectionStartPosition:
       virtualColumn: 0
       column: 0
@@ -915,7 +915,7 @@ MonoBehaviour:
     codeViewRect:
       serializedVersion: 2
       x: 37.6
-      y: 273.6
+      y: 230.4
       width: 1152
       height: 216
     tokenTooltip: {fileID: 0}
@@ -949,9 +949,9 @@ MonoBehaviour:
   targetAsset: {fileID: 11500000, guid: 8e3598abd85baba41bd33dd9bb0d0496, type: 3}
   targetAssetGuid: 8e3598abd85baba41bd33dd9bb0d0496
   textEditor:
-    scrollPosition: {x: 0, y: 0}
-    scrollPositionLine: 0
-    scrollPositionOffset: 0
+    scrollPosition: {x: 0, y: 172}
+    scrollPositionLine: 11
+    scrollPositionOffset: 13.600006
     searchString: 
     caretPosition:
       virtualColumn: 69
@@ -971,7 +971,7 @@ MonoBehaviour:
     codeViewRect:
       serializedVersion: 2
       x: 30.4
-      y: 0
+      y: 172.79999
       width: 1159.2
       height: 230.4
     tokenTooltip: {fileID: 0}
@@ -1014,7 +1014,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 360
 --- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
