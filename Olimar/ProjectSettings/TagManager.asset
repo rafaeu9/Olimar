@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Goal
+  - Match
+  - Win UI
+  - Stop UI
+  - Start UI
   layers:
   - Default
   - TransparentFX
@@ -38,6 +43,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2931887273
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Objects
+    uniqueID: 3407653055
+    locked: 0
+  - name: UI
+    uniqueID: 785423861
     locked: 0
