@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AaronDemo/DemoLVL3.unity
     guid: 18304d07ec0d5fb49ad5cf6372a4849a
+  - enabled: 1
+    path: Assets/AaronDemo/DemoLVL4.unity
+    guid: 755e3449b33741245bf31e627a281910
+  - enabled: 1
+    path: Assets/AaronDemo/DemoLVL5.unity
+    guid: a8656736b0c7f414d9d6ba7d8c55cefe
   m_configObjects: {}

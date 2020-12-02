@@ -9,6 +9,7 @@ TagManager:
   - Win UI
   - Stop UI
   - Start UI
+  - Pause UI
   layers:
   - Default
   - TransparentFX

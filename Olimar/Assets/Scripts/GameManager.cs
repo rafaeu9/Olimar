@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 	private GameObject startUI;
 	private GameObject stopUI;
 	private GameObject winUI;
+	private GameObject pauseUI;
 	
     // Start is called before the first frame update
 	void Start()
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
 		winUI = GameObject.FindGameObjectWithTag("Win UI");
 		startUI = GameObject.FindGameObjectWithTag("Start UI");
 		stopUI = GameObject.FindGameObjectWithTag("Stop UI");
+		pauseUI = GameObject.FindGameObjectWithTag("Pause UI");
 		ClickManager.playMode = false;
 		if(winUI != null)
 		{
@@ -30,12 +32,19 @@ public class GameManager : MonoBehaviour
 		{
 			stopUI.SetActive(false);
 		}
+		if(pauseUI != null)
+		{
+			pauseUI.SetActive(false);
+		}
 	}
 
     // Update is called once per frame
     void Update()
     {
-        
+	    if(Input.GetKeyDown(KeyCode.Escape) && pauseUI != null && !winUI.activeSelf) //pause menu
+	    {
+		    Pause();
+	    }   
     }
     
 	public void StartSimulation()
@@ -89,6 +98,7 @@ public class GameManager : MonoBehaviour
 		if(winTest)
 		{
 			winUI.SetActive(true);
+			pauseUI.SetActive(false);
 			stopUI.SetActive(false);
 			startUI.SetActive(false);
 		}
@@ -107,6 +117,11 @@ public class GameManager : MonoBehaviour
 	public void MainMenu()
 	{
 		SceneManager.LoadScene(0); // Load First Scene (Main Menu)
+	}
+	public void Pause()
+	{
+		pauseUI.SetActive(!pauseUI.activeSelf);
+		Time.timeScale = (Time.timeScale - 1f) * -1f;
 	}
 
 }
